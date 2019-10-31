@@ -107,16 +107,9 @@
 }
 
 /*Table title for services*/
-#h2-services{
-  text-align: center;
-  font-size: 24px;
-  font-family: cursive;
-}
-
-/*Table title for prices*/
-#h2-prices{
+.h2-services{
   text-align: left;
   font-size: 24px;
   font-family: cursive;
-  margin-left: 17%
 }
+/*Services.html css ends*/
