@@ -6,6 +6,11 @@
   font-style: italic;
 }
 
+/*Resize web page*/
+html {
+  height: 101%;
+}
+
 /*Navigation css starts*/
 .navigation{
   background-color: #e0b0ff;
