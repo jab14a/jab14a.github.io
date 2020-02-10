@@ -1,23 +1,25 @@
 /*Title for whole website*/
 .title{
   text-align: center;
-  font-family: cursive;
-  font-size: 48px;
+  font-family: Brush Script MT;
+  font-size: 96px;
   font-style: italic;
 }
 
 /*Resize web page*/
 html {
   height: 101%;
+  background-image: url("flowers-3956074_1920.jpg");
 }
 
 /*Navigation css starts*/
 .navigation{
-  background-color: #e0b0ff;
   overflow: hidden;
   text-align: center;
   position: sticky;
-  top: 0;
+  top: 0px;
+  height: 45px;
+  margin-top: -70px;
 }
 
 .navigation ul{
@@ -35,19 +37,20 @@ html {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 12px;
   text-decoration: none;
 }
 
 .navigation ul li a:hover {
-  background-color: #fff9e5;
-  color: #e0b0ff
+  color: #e7b8a6;
+  font-weight: bold;
 }
 /*Navigation css ends*/
 
 /*Contact.html css starts*/
 /*Css for main div*/
 .main{
+  margin-left: 700px;
   padding: 16px;
   border: 3px solid #cccccc;
   display: inline-block;
@@ -55,16 +58,17 @@ html {
 
 /*Css for message title*/
 #contact-message{
+  margin-left: 700px;
   text-align: left;
-  font-size: 24px;
-  font-family: cursive;
-  font-style: italic;
+  font-size: 32px;
+  font-family: Brush Script MT;
+  margin-top: 20px;
 }
 
 /*Css for contact form*/
 #form{
   text-align: left;
-  font-family: Tahoma, sans-serif;
+  font-family: Tahoma, sans-seri;
 }
 
 /*Css for message input box*/
@@ -73,7 +77,7 @@ html {
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
-	font-family: Tahoma, sans-serif;
+	font-family: sans-serif;
   resize: none;
 }
 
@@ -83,7 +87,7 @@ html {
 	height: 17px;
   border: 3px solid #cccccc;
 	padding: 5px;
-	font-family: Tahoma, sans-serif;
+	font-family: sans-serif;
   resize: none;
 }
 
@@ -93,13 +97,13 @@ html {
 	height: 17px;
   border: 3px solid #cccccc;
 	padding: 5px;
-	font-family: Tahoma, sans-serif;
+	font-family: sans-serif;
   resize: none;
 }
 
 /*Css for submit button*/
 #submit{
-  background-color: #e0b0ff;
+  background-color: #e7b8a6;
   border: none;
   color: black;
   padding: 15px 32px;
@@ -115,7 +119,7 @@ html {
 .services-body table, th, td {
   border: 3px solid #cccccc;
   text-align: left;
-  font-family: Tahoma, sans-serif;
+  font-family: Brush Script MT;
   padding: 10px;
   background-color: #fff9e5;
 }
@@ -124,7 +128,7 @@ html {
 .h2-services{
   text-align: left;
   font-size: 24px;
-  font-family: cursive;
+  font-family: Brush Script MT;
   font-style: italic;
 }
 /*Services.html css ends*/

@@ -4,11 +4,11 @@
 function focusFun(num) {
   "use strict";
   if (num === 1) {
-    document.getElementById("name").style.background = "#fff9e5";
+    document.getElementById("name").style.background = "#e7b8a6";
   } else if (num === 2) {
-    document.getElementById("email").style.background = "#fff9e5";
+    document.getElementById("email").style.background = "#e7b8a6";
   } else {
-    document.getElementById("message").style.background = "#fff9e5";
+    document.getElementById("message").style.background = "#e7b8a6";
   }
 }
 //Allows for change of colors when not focusing on three input boxes in contact
@@ -22,7 +22,7 @@ function blurFun(num) {
     document.getElementById("message").style.background = "white";
   }
 }
-
+//Allows for user to submit a request and send an email to host
 function formSubmit(form) {
   //window.location = "mailto:joel.butler1996@gmail.com";
   var name = document.getElementById("name").value;
